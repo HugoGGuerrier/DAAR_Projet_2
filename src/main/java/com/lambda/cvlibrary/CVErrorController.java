@@ -10,7 +10,7 @@ public class CVErrorController implements ErrorController  {
     @RequestMapping("/error")
     public String handleError() {
         //do something like logging
-        return "error";
+        return "4O4 page not found...";
     }
 
 }
