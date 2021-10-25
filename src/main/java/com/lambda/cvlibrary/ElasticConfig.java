@@ -7,6 +7,12 @@ import org.springframework.data.elasticsearch.client.ClientConfiguration;
 import org.springframework.data.elasticsearch.client.RestClients;
 import org.springframework.data.elasticsearch.config.AbstractElasticsearchConfiguration;
 
+/**
+ * This class configure the elasticsearch cluster connection
+ * 
+ * @author Emilie SIAU
+ * @author Hugo GUERRIER
+ */
 @Configuration
 public class ElasticConfig extends AbstractElasticsearchConfiguration {
     

@@ -5,7 +5,13 @@ import org.springframework.data.elasticsearch.annotations.Document;
 import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;
 
-@Document(indexName = "CV")
+/**
+ * This class represents a CV
+ * 
+ * @author Emilie SIAU
+ * @author Hugo GUERRIER
+ */
+@Document(indexName = "cv")
 public class CV {
 
     // ----- Attributes -----
