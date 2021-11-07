@@ -12,7 +12,18 @@ Le travail a été en partie réalisé avec l'extension Live Share de VS Code, n
 
 ## Exécution du projet
 
+<<<<<<< HEAD
 Lancer ElasticSearch
 `mvn clean spring-boot:run`
 Interface Postman   localhost:8080
 ElasticSearch       localhost:9200
+=======
+Lancer ElasticSearch \
+`mvn clean spring-boot:run` \
+Tomcat : localhost:8080 \
+ElasticSearch : localhost:9200
+
+Indexer un CV : POST /api/v1/cvlib?file=MY_FILE \
+Rechercher un CV : GET /api/v1/cvlib?q=MY_REQUEST \
+Supprimer un CV : DELETE /api/v1/cvlib?id=CV_ID
+>>>>>>> dea7cc762bdada2f069a26c480ecb2478df1e5a3
