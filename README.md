@@ -13,8 +13,8 @@ Les logs ont été initiés mais faute de temps, non réalisés.
 
 Lancer ElasticSearch \
 `mvn clean spring-boot:run` \
-Tomcat              localhost:8080 \
-ElasticSearch       localhost:9200 \
+Tomcat : localhost:8080 \
+ElasticSearch : localhost:9200
 
 Indexer un CV : POST /api/v1/cvlib?file=MY_FILE \
 Rechercher un CV : GET /api/v1/cvlib?q=MY_REQUEST \
